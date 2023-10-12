@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #2A416F;
+  font-family: 'Kanit', sans-serif;
+
+}
+#main{
+  height: 80vh;
+  width: 80vw;
+  /* background-color: aqua; */
+  overflow: hidden;
+  background-color: white;
+  margin-left: 10vw;
+  margin-top: 10vh;
+  box-shadow: 6px 5px 18px -1px rgba(0, 0, 0, 0.75);
+  color: #2A416F;
+  /* display: flex; */
+  z-index: 0;
+
+}
+#nav{
+  width: 80vw;
+  height: 10vh;
+  /* background-color: blue; */
+  display: flex;
+  /* justify-content:space-between; */
+  justify-content: space-between;
+}
+#pic img{
+  height: 530px;
+  margin-left:10vw;
+  /* background-color: aqua; */
+  box-shadow: 6px 5px 18px -1px rgba(0,0,0,0.75);
+}
+#pic{
+  height: 560px;
+}
+#body{
+  background-color: #2B416E;
+  width: 32vw;
+  height: 80vh;
+  position: absolute;
+  left: 891px;
+  bottom: 89px;
+  color: #ffffff;
+  /* padding: 10px; */
+}
+#nav1{
+  display: flex;
+  font-size: 25px;
+  color: #2A416F;
+}
+#nav1 p{
+  margin-left: 10px;
+}
+#surname{
+  margin-top: 10px;
+}
+#name{
+  transform: rotate(90deg);
+  padding-bottom: 0;
+  /* margin-right0: 10px; */
+  /* margin-top: 174px; */
+  font-size: 144px;
+  left: 460px;
+  position:fixed;
+  color: #2A416F;
+}
+#data{
+  display: flex;
+  overflow: hidden;
+}
+#body h1{
+  font-size: 76px;
+  padding-left: 50px;
+}
+#body p{
+  font-size: 25px;
+  padding-left: 25px;
+}
+#main2{
+  height: 80vh;
+  width: 80vw;
+  /* background-color: aqua; */
+  overflow: hidden;
+  background-color: white;
+  margin-left: 10vw;
+  margin-top: 10vh;
+  box-shadow: 6px 5px 18px -1px rgba(0,0,0,0.75);
+  color: #2A416F;
+  margin-bottom: 100px;
+  /* display: flex; */
+}
+#nav2{
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  right: 164px;
+  top: 94px;
+  z-index: 1;
+  /* margin-left: 100px; */
+}
+#contact{
+  margin-left: 28px;
+  display: flex;
+  justify-content: space-around;
+}
+#body2{
+  background-color: #2B416E;
+  width: 32vw;
+  height: 80vh;
+  position: absolute;
+  left: 891px;
+  bottom: 89px;
+  color: #ffffff;
+  /* padding: 10px; */
+  top: 100vh;
+}
+.contentBox{
+  height: 35vh;
+  width: 36vw;
+  /* background-color: aqua; */
+  margin: 10px;
+  display: flex;
+}
+.contentBox2{
+  height: 35vh;
+  width: 36vw;
+  /* background-color: rgb(15, 174, 174); */
+  margin: 10px;
+  margin-top: 13px;
+  display: flex;
+}
+#quality{
+  height: 35vh;
+  width: 18vw;
+  /* border: 1px blue solid; */
+  text-align: center;
+}
+#quality2{
+  height: 35vh;
+  width: 18vw;
+  /* border: 1px blue solid; */
+  text-align: center;
+}
+#quality3{
+  height: 35vh;
+  width: 18vw;
+  /* border: 1px blue solid; */
+  text-align: center;
+  margin-bottom: 10px;
+}
+#quality4{
+  height: 35vh;
+  width: 18vw;
+  /* border: 1px blue solid; */
+  text-align: center;
+}
+#body2 h1{
+  font-size: 76px;
+  padding-left: 50px;
+}
+#body2 h2{
+  font-size: 36px;
+  padding-left: 50px;
+}
+#box{
+  width: 30vw;
+  height: 55vh;
+  /* background-color: aqua; */
+  margin: 15px;
+  margin-bottom: 10px;
+}
+#body2 p{
+  font-size: 25px;
+  padding-left: 25px;
+}
+#main3{
+  height: 80vh;
+  width: 80vw;
+  /* background-color: aqua; */
+  overflow: hidden;
+  background-color: white;
+  margin-left: 10vw;
+  margin-top: 10vh;
+  box-shadow: 6px 5px 18px -1px rgba(0,0,0,0.75);
+  color: #2A416F;
+  margin-bottom: 100px;
+  /* display: flex; */
+}
+#body3{
+  background-color: #2B416E;
+  width: 32vw;
+  height: 80vh;
+  position: absolute;
+  left: 891px;
+  bottom: 89px;
+  color: #ffffff;
+  /* padding: 10px; */
+  top: 191.28vh;
+}
+#project{
+  /* height: 35vh;
+  width: 18vw; */
+  /* border: 1px blue solid; */
+  /* text-align: center; */
+
+}
+#project1{
+  height: 35vh;
+  width: 18vw;
+  /* border: 1px blue solid; */
+  text-align: center;
+}
+#project2{
+  height: 35vh;
+  width: 18vw;
+  /* border: 1px blue solid; */
+  text-align: center;
+}
+#project3{
+  height: 35vh;
+  width: 18vw;
+  /* border: 1px blue solid; */
+  text-align: center;
+}
+.contentBox img{
+  box-shadow: 6px 5px 18px -1px rgba(0, 0, 0, 0.75);
+  margin: 30px;
+}
+.contentBox2 img{
+  box-shadow: 6px 5px 18px -1px rgba(0, 0, 0, 0.75);
+  margin: 30px;
+}
+#body3 h1{
+  font-size: 76px;
+  padding-left: 50px;
+}
+#body3 img{
+  box-shadow: 6px 5px 18px -1px rgba(0, 0, 0, 0.75);
+  margin: 7px;
+}
